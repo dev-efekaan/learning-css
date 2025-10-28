@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin: 0 auto;
+}
+
+.left-bar {
+    width: 100%;
+    
+    
+}
+
+.left-bar > p{
+    margin: auto 0;
+}
+
+.content {
+    width: calc(100% -200px);
+    
+    margin-left: auto;
+}
+
+.card {
+    width: 30%;
+    
+    padding: 0%;
+    
+    background-color: red;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    
+    margin-right: 10px;
+}
+
+.bg-red {
+    background-color: red;
+}
+.bg-green {
+    background-color: green;
+}
+.bg-yellow {
+    background-color: yellow;
+}
+
+
+
+/*.text-red {
+    color: red;
+}
+.text-mix {
+    color: slateblue;
+}
+.text-grey {
+    color: gray;
+}
+
+#first-article {
+    font-size: 16px;
+}
+#second-article {
+    font-size: 18px;
+}
+#third-article {
+    font-size: 20px;
+}
+
+li:nth-child(odd) {
+    color: aqua;
+}
+
+li:nth-child(even) {
+    background: darkblue;
+}/*
